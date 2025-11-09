@@ -49,15 +49,15 @@ EC2 Instance (Managed Lifecycle)
 smart-cloud-optimizer/ <br>
 │ <br>
 ├── scripts/ <br>
-│   ├── networking.sh      #Creates VPC, subnet, security groups <br>
-│   ├── ec2_setup.sh       #Launches EC2 instance with Nginx <br>
-│   ├── lambda.sh          #Deploys Start/Stop Lambda functions <br>
-│   ├── events.sh          #Schedules EventBridge rules <br>
+│   ├── networking.sh       &emsp; &emsp;       #Creates VPC, subnet, security groups <br>
+│   ├── ec2_setup.sh        &emsp; &emsp;       #Launches EC2 instance with Nginx <br>
+│   ├── lambda.sh           &emsp; &emsp;       #Deploys Start/Stop Lambda functions <br>
+│   ├── events.sh           &emsp; &emsp;       #Schedules EventBridge rules <br>
 │ <br>
-├── start_ec2.py           #Lambda code to start EC2 <br>
-├── stop_ec2.py            #Lambda code to stop EC2 <br>
-├── resources.json         #Stores all AWS resource IDs <br>
-└── README.md              #Documentation (this file) <br>
+├── start_ec2.py            &emsp; &emsp;       #Lambda code to start EC2 <br>
+├── stop_ec2.py             &emsp; &emsp;       #Lambda code to stop EC2 <br>
+├── resources.json          &emsp; &emsp;       #Stores all AWS resource IDs <br>
+└── README.md               &emsp; &emsp;       #Documentation (this file) <br>
 
 🪜 Deployment Steps
 🧰 Pre-requisites
@@ -156,5 +156,6 @@ and embed them here like:
 
 ![Architecture](images/architecture-diagram.png)
 ![Lambda Logs](images/cloudwatch-logs.png)
+
 
 
