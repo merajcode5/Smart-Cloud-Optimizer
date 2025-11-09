@@ -11,6 +11,12 @@ It automatically starts your EC2 instance at the beginning of the workday and st
 This project is a real-world implementation of AWS Cloud Automation and Cost Optimization principles.
 
 🧩 Architecture
+
+## 🏗️ Architecture Diagram
+
+![Smart Cloud Optimizer Architecture](images/architecture-diagram.png)
+
+
 🔧 AWS Services Used:
 
 ☁️ Amazon EC2 — The compute instance (Nginx web server)
@@ -150,3 +156,4 @@ and embed them here like:
 
 ![Architecture](images/architecture-diagram.png)
 ![Lambda Logs](images/cloudwatch-logs.png)
+
