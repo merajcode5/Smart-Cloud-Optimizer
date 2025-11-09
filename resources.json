@@ -1,0 +1,10 @@
+{
+  "VPC_ID": "vpc-0d1e84a1b98ec6c42",
+  "SUBNET_ID": "subnet-08dddf917cd14c9df",
+  "IGW_ID": "igw-0ea1f68d7f0c8c261",
+  "ROUTE_TABLE_ID": "rtb-017d38c5bb740deb3",
+  "SECURITY_GROUP_ID": "sg-0809cfc8d45f9bf51",
+  "KEY_NAME": "IntelligentCloudKey",
+  "INSTANCE_ID": "i-03f85b8fe3d6e8c66",
+  "EC2_PUBLIC_IP": "15.206.159.40"
+}
