@@ -45,19 +45,19 @@ EC2 Instance (Managed Lifecycle)
 ✅ Easy to deploy via AWS CLI
 ✅ Logs all executions in CloudWatch
 
-🧱 Project Structure
-smart-cloud-optimizer/
-│
-├── scripts/
-│   ├── networking.sh      # Creates VPC, subnet, security groups
-│   ├── ec2_setup.sh       # Launches EC2 instance with Nginx
-│   ├── lambda.sh          # Deploys Start/Stop Lambda functions
-│   ├── events.sh          # Schedules EventBridge rules
-│
-├── start_ec2.py           # Lambda code to start EC2
-├── stop_ec2.py            # Lambda code to stop EC2
-├── resources.json         # Stores all AWS resource IDs
-└── README.md              # Documentation (this file)
+🧱 Project Structure <br>
+smart-cloud-optimizer/ <br>
+│ <br>
+├── scripts/ <br>
+│   ├── networking.sh      #Creates VPC, subnet, security groups <br>
+│   ├── ec2_setup.sh       #Launches EC2 instance with Nginx <br>
+│   ├── lambda.sh          #Deploys Start/Stop Lambda functions <br>
+│   ├── events.sh          #Schedules EventBridge rules <br>
+│ <br>
+├── start_ec2.py           #Lambda code to start EC2 <br>
+├── stop_ec2.py            #Lambda code to stop EC2 <br>
+├── resources.json         #Stores all AWS resource IDs <br>
+└── README.md              #Documentation (this file) <br>
 
 🪜 Deployment Steps
 🧰 Pre-requisites
@@ -156,4 +156,5 @@ and embed them here like:
 
 ![Architecture](images/architecture-diagram.png)
 ![Lambda Logs](images/cloudwatch-logs.png)
+
 
